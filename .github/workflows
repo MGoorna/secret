@@ -1,0 +1,4 @@
+- name: create env file
+  run: |
+         touch .env
+         echo BASE_URL=${{ secrets.BASE_URL }} >> .env
